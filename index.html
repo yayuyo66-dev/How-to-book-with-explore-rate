@@ -51,13 +51,8 @@
     padding: 24px 20px;
     text-decoration: none;
     color: inherit;
-    transition: border-color 0.2s;
     position: relative;
   }
-  .menu-item:active {
-    border-color: #c9a96e;
-  }
-
   .menu-item-label {
     font-size: 11px;
     letter-spacing: 0.15em;
@@ -83,24 +78,6 @@
     transform: translateY(-50%);
     color: #c9a96e;
     font-size: 18px;
-  }
-
-  .menu-item.disabled {
-    opacity: 0.45;
-    pointer-events: none;
-  }
-  .menu-item.disabled .menu-item-label {
-    color: #8a7f74;
-  }
-  .coming-soon {
-    display: inline-block;
-    font-size: 10px;
-    letter-spacing: 0.1em;
-    color: #8a7f74;
-    border: 1px solid #2a2a2a;
-    border-radius: 4px;
-    padding: 2px 8px;
-    margin-top: 8px;
   }
 
   .footer {
@@ -129,12 +106,12 @@
     <div class="menu-item-arrow">›</div>
   </a>
 
-  <div class="menu-item disabled">
+  <a class="menu-item" href="price_list.html">
     <div class="menu-item-label">データ</div>
     <div class="menu-item-title">国内ホテル価格リスト</div>
-    <div class="menu-item-desc">国内各ホテルの料金一覧</div>
-    <div class="coming-soon">COMING SOON</div>
-  </div>
+    <div class="menu-item-desc">国内各ホテルのMMP適用価格一覧</div>
+    <div class="menu-item-arrow">›</div>
+  </a>
 
 </div>
 
